@@ -1,3 +1,25 @@
 /* =============
     Footer
 ============= */
+footer{
+    background-color: $  ;
+    color:  ;
+
+    .content{
+        display: grid;
+        grid-template-columns: 100%;
+
+        @include md{
+            display: grid;
+            Grid-template-columns: ;
+            grid-template-areas:
+        
+
+        @include lg{
+            grid-template-columns: ;
+            grid-template-areas:
+            
+        }
+
+    }
+}
